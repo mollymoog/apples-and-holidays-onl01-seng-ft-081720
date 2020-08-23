@@ -37,7 +37,7 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   holiday_hash.each do |season, holiday_name|
     if season == :season 
-      
+      puts :season
     end 
   end 
 end
